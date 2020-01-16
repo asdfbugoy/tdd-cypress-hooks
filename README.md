@@ -65,3 +65,15 @@
 ## TDD[Test Driven Development]:
 
     http://agiledata.org/essays/tdd.html
+
+## ESLINT:
+
+    https://eslint.org/docs/user-guide/getting-started
+
+### REACT
+
+    https://github.com/yannickcr/eslint-plugin-react
+
+### CYPRESS
+
+    https://github.com/cypress-io/eslint-plugin-cypress

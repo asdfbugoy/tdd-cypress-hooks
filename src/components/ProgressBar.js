@@ -12,13 +12,13 @@ const ProgressBar = () => {
             setButtons(data.buttons);
         });
         return () => {
-            
-        }
+
+        };
     }, []);
     const onChange = e => {
         setSelectedBar(parseInt(e.target.value, 10));
-    }
-    const onClick = value => e => {
+    };
+    const onClick = value => () => {
         setBars(bars.map((d, i) => {
             if (i === selectedBar) {
                 d = d + value;
@@ -26,8 +26,8 @@ const ProgressBar = () => {
                 if (d > limit) d = limit;
             }
             return d;
-        }))
-    }
+        }));
+    };
     return <div className="progress-bar-component">
         <div className="card">
             <div className="card-header">Progress Bar </div>
@@ -54,7 +54,7 @@ const ProgressBar = () => {
             </div>
             <div className="card-footer text-right">@Script by Francis Samande Declaro</div>
         </div>
-    </div>
-}
+    </div>;
+};
 
 export default ProgressBar;

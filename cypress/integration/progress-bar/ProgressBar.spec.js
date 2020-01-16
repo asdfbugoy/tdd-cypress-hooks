@@ -2,7 +2,7 @@
 
 context('Progress Bar', () => {
     beforeEach(() => {
-        
+
     });
     describe('ProgressBar Component', () => {
         it('Checks server if running properly', () => {
@@ -18,7 +18,7 @@ context('Progress Bar', () => {
         it('Checks API Data', () => {
             cy.request('https://pb-api.herokuapp.com/bars')
                 .should((response) => {
-                    expect(response.status).to.eq(200)
+                    expect(response.status).to.eq(200);
                     // expect(response.body).to.have.length(500)
                     // expect(response).to.have.property('headers')
                     // expect(response).to.have.property('duration')
@@ -62,7 +62,7 @@ context('Progress Bar', () => {
                         cy.get('.bg-warning').then(first => {
                             let firstValue = parseInt(first[0].dataset.value, 10);
                             cy.get(btn).click();
-                            cy.wait(1000);
+                            // cy.wait(1000);
                             cy.get('.bg-warning').then(second => {
                                 let secondValue = parseInt(second[0].dataset.value, 10);
                                 let limit = parseInt(second[0].dataset.limit, 10);
@@ -73,7 +73,7 @@ context('Progress Bar', () => {
                         });
                     });
                 });
-            })
+            });
         });
     });
 });
