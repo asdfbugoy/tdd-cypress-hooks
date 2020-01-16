@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tdd-cypress-hooks/static/css/main.714fd260.chunk.css",
+    "main.js": "/tdd-cypress-hooks/static/js/main.ec90d60e.chunk.js",
+    "main.js.map": "/tdd-cypress-hooks/static/js/main.ec90d60e.chunk.js.map",
+    "runtime-main.js": "/tdd-cypress-hooks/static/js/runtime-main.829e6267.js",
+    "runtime-main.js.map": "/tdd-cypress-hooks/static/js/runtime-main.829e6267.js.map",
+    "static/js/2.0efbac45.chunk.js": "/tdd-cypress-hooks/static/js/2.0efbac45.chunk.js",
+    "static/js/2.0efbac45.chunk.js.map": "/tdd-cypress-hooks/static/js/2.0efbac45.chunk.js.map",
+    "index.html": "/tdd-cypress-hooks/index.html",
+    "precache-manifest.9f6d04b0735a89a412237627d1bc778e.js": "/tdd-cypress-hooks/precache-manifest.9f6d04b0735a89a412237627d1bc778e.js",
+    "service-worker.js": "/tdd-cypress-hooks/service-worker.js",
+    "static/css/main.714fd260.chunk.css.map": "/tdd-cypress-hooks/static/css/main.714fd260.chunk.css.map",
+    "static/js/2.0efbac45.chunk.js.LICENSE": "/tdd-cypress-hooks/static/js/2.0efbac45.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.829e6267.js",
+    "static/js/2.0efbac45.chunk.js",
+    "static/css/main.714fd260.chunk.css",
+    "static/js/main.ec90d60e.chunk.js"
+  ]
+}
