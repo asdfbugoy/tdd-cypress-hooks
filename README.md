@@ -7,7 +7,7 @@
 
 ## GIT
 
-### git clone --branch master https://github.com/asdfbugoy/right-way-coding.git [foldername]
+### git clone https://github.com/asdfbugoy/right-way-coding.git [foldername]
 
     1. clone from github
 
@@ -37,6 +37,6 @@
     1. Runs the App in development mode
     2. http://localhost:3000;
 
-### yarn test
+### yarn test-cypress
 
     1. Runs Testing in Cypress
