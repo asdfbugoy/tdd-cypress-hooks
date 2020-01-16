@@ -40,3 +40,28 @@
 ### yarn test-cypress
 
     1. Runs Testing in Cypress
+
+# Resources
+
+## GH-PAGES: 
+
+    https://github.com/gitname/react-gh-pages/blob/master/README.md
+
+## CYPRESS: 
+
+    https://www.cypress.io/
+
+## BOOTSTRAP: 
+
+    https://getbootstrap.com/
+
+## REACT HOOKS: 
+    https://reactjs.org/docs/hooks-intro.html
+
+## GIT:
+
+    https://git-scm.com/docs
+
+## TDD[Test Driven Development]:
+
+    http://agiledata.org/essays/tdd.html
